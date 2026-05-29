@@ -18,7 +18,7 @@ dev = [
 ]
 
 [project.scripts]
-cas-resolver = "cas-resolver.cli:main"
+cas-resolver = "cas_resolver.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
