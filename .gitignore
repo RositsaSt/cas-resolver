@@ -1,0 +1,55 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Windows download security metadata visible in WSL
+*:Zone.Identifier
+*:Zone.Identifier:*
+
+# Supplied input data and generated output data
+data/input/*
+data/output/*
+
+# Keep empty folders and a synthetic example input under version control
+!data/input/.gitkeep
+!data/input/sample_batch.csv
+!data/output/.gitkeep
